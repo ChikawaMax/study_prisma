@@ -30,6 +30,8 @@ const main = async () => {
         const users: Props[] = await Find();
         users.forEach(user => {
             console.log(user.email)
+            console.log(user.email)
+            console.log(user.email)
         })
         console.log(users)
 

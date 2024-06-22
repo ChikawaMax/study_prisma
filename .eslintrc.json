@@ -1,3 +1,5 @@
+// .eslintrc
 {
-  "extends": "next/core-web-vitals"
+  // 追記："prettier"
+  "extends": ["next", "next/core-web-vitals", "prettier"]
 }
